@@ -53,5 +53,5 @@ if (Test-Path (Join-Path $toolkit "index.json")) {
 Write-Host ""
 Write-Host "Done. Mode D: router only — skills NOT copied into always-on list."
 Write-Host "  Toolkit: $toolkit"
-Write-Host "  Try: /cyber-status  |  /cyber-find memory forensics  |  /cyber-run <name>"
+Write-Host "  Try: /cyber-status  |  /cyber-find memory forensics  |  /cyber-run skill-name"
 Write-Host "  Legal: authorized / own systems only for offensive playbooks."
