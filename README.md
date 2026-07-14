@@ -57,6 +57,7 @@ O router recusa alvos de terceiro ambíguos.
 | [grok-pentest](https://github.com/Godz57/grok-pentest) | OWASP vibe apps + scripts |
 | [grok-strix](https://github.com/Godz57/grok-strix) | Pentest agentic PoC |
 | [grok-craftsman](https://github.com/Godz57/grok-craftsman) | Qualidade de código |
+| [grok-ai-memory](https://github.com/Godz57/grok-ai-memory) | Memória / handoff Grok+Pi |
 | **cyber-skills** | Playbooks SOC/DFIR/cloud/red team… |
 
 ## Upstream
