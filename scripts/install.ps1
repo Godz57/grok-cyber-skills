@@ -45,13 +45,13 @@ if (-not (Test-Path (Join-Path $toolkit "index.json"))) {
 
 if (Test-Path (Join-Path $toolkit "index.json")) {
     $idx = Get-Content (Join-Path $toolkit "index.json") -Raw | ConvertFrom-Json
-    Write-Host "  index: $($idx.total_skills) skills (v$($idx.version))"
+    Write-Host ("  index: {0} skills (v{1})" -f $idx.total_skills, $idx.version)
 } else {
     Write-Warning "index.json missing after clone"
 }
 
 Write-Host ""
-Write-Host "Done. Mode D: router only — skills NOT copied into always-on list."
-Write-Host "  Toolkit: $toolkit"
+Write-Host "Done. Mode D: router only - skills NOT copied into always-on list."
+Write-Host ("  Toolkit: {0}" -f $toolkit)
 Write-Host "  Try: /cyber-status  |  /cyber-find memory forensics  |  /cyber-run skill-name"
 Write-Host "  Legal: authorized / own systems only for offensive playbooks."
